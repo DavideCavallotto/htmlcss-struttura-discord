@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+.container {
+    padding: 10px;
+    background-color: rgb(173, 216, 230);
+    min-height: 60px;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    background-color: orange;
+    border: 2px dashed black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+
+
+
+
