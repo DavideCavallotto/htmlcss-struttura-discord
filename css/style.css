@@ -103,12 +103,25 @@
 } 
 
 .grey-section {
-    background-color: rgb(65, 63, 63);
+    background-color: lightgrey;
     min-height: 420px;
     display: flex;
     justify-content: center;
 }
 
+.big-grey-section {
+    background-color: lightgray;
+    min-height: 840px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.big-grey-section-col {
+    background-color: chartreuse;
+    border: 2px dashed black;
+    width: 1240px; 
+    min-height: 700px;
+}
 
 
 
