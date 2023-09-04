@@ -157,13 +157,36 @@
 
 .dark-col-2 {
     background-color: #20B2AA;
-    border: 2px dashed black;
+    border: 2px dashed white;
     min-height: 350px;
     
 }
 
 .col-2 {
     flex-basis: calc((100% * 2) /12);
+}
+
+.footer-container {
+    background-color: gray;
+    min-height: 90px;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;    
+}
+
+.footer-row {
+    display: flex;  
+    background-color: aqua;
+    width: 1240px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;      
+}
+
+.rose {
+    background-color: rosybrown;
+    border: 1px dashed black;
 }
 
 
