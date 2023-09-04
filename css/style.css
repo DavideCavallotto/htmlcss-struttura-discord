@@ -6,21 +6,45 @@
 
 /* header */
 .container {
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(173, 216, 230);
     min-height: 60px;
 }
 
 .row {
     width: 80%;
-    margin: auto;
+    margin: auto;    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row [class^=col] {
     background-color: orange;
     border: 2px dashed black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
+    padding: 10px;    
+    font-size: 24px;
+    
 }
+
+.col-3 {
+    flex-basis: calc(100% /2);
+}
+.col-6 {
+    flex-basis: calc(100% /1);
+    text-align: center;
+   
+}
+
+.login {
+    text-align: end;
+}
+
+
+
+
+
+
 
 
 
