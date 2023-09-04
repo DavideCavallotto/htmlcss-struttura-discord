@@ -5,7 +5,7 @@
 }
 
 /* header */
-.container {
+.header-container {
     padding: 20px;
     background-color: rgb(173, 216, 230);
     min-height: 60px;
@@ -31,14 +31,40 @@
     flex-basis: calc(100% /2);
 }
 .col-6 {
-    flex-basis: calc(100% /1);
+    flex-basis: calc(100% /1);   
+       
+}
+
+.link {
     text-align: center;
-   
 }
 
 .login {
     text-align: end;
 }
+
+.blue-section {
+    background-color: #00008B;
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-section-row {
+    margin: auto;    
+    display: flex;
+    justify-content: center;    
+}
+
+.blue-section-col {
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    width: 1000px; 
+    min-height: 350px;
+}
+
+
+
 
 
 
